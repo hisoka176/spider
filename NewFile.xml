@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spider>
+	<game>
+		<name>天龙八部3d</name>
+		<active>
+			<url>http://tl3d.changyou.com/tl3d/event/event.shtml</url>
+			<item>
+				<css>ul.news_list</css>
+				<tag>li</tag>
+			</item>
+			<page>
+				<css>div.xtlPath</css>
+			</page>
+		</active>
+	</game>
+	
+	<game>
+		<name>苍之骑士团</name>
+		<active>
+			<url>http://hs.changyou.com/hs/event/event.shtml</url>
+			<item>
+				<css>ul.clearfix</css>
+				<tag>li</tag>
+			</item>
+			<page>
+				<css>div.hsPage</css>
+			</page>
+		</active>
+	</game>
+	
+	<game>
+		<name>苍之骑士团</name>
+		<active>
+			<url>http://hs.changyou.com/hs/event/event.shtml</url>
+			<item>
+				<css>ul.clearfix</css>
+				<tag>li</tag>
+			</item>
+			<page>
+				<css>div.hsPage</css>
+			</page>
+		</active>
+	</game>
+	
+</spider>
