@@ -44,6 +44,7 @@ logger = logging.getLogger()
 need_url = re.compile('tl3d\.changyou\.com')
 
 def liProcess(driver):
+    
     global need_url
     print(driver.current_url)
     a = need_url.findall(driver.current_url)
